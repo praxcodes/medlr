@@ -1,0 +1,70 @@
+.container {
+    padding: 20px;
+  }
+  
+  .medicineList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .medicineItem {
+    background-color: #0c0000;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+  }
+  
+  .medicineItem:hover {
+    transform: scale(1.02);
+  }
+  
+  .medicineDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .medicineName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .medicineManufacturer,
+  .medicinePrice,
+  .medicineId {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .medicineManufacturer span,
+  .medicinePrice span,
+  .medicineId span {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .medicineActions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .medicineButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .medicineButton:hover {
+    background-color: #0056b3;
+  }
+  
