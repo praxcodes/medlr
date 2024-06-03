@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <a href="/">Medlr</a>
+        <Link href="/">Medlr</Link>
       </div>
       <div className={styles.searchContainer}>
         <input
